@@ -2,7 +2,6 @@ import nltk
 from nltk.collocations import *
 
 file_name = 'blake-poems.txt'
-bigram_measures = nltk.collocations.BigramAssocMeasures()
 trigram_measures = nltk.collocations.TrigramAssocMeasures()
 
 def get_words(f):
